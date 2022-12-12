@@ -1,30 +1,34 @@
-# OpenAI API Quickstart - Python example app
+<p align="center">
+<img width="410" alt="the-small" src="https://user-images.githubusercontent.com/14722995/206960778-a66af496-bed0-440e-8d0e-8ada872d7236.png">
+</p>
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+# Medieval Name Generator - Powered by OpenAI
 
-## Setup
+This is a medieval name generator app which uses the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework and is optionally set up to deploy to Heroku. Heroku worker configuration is set up in `Procfile`. Follow the instructions below to get set up.
 
-1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
+## Setup and run with flask
+
+1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/) or use `brew`.
 
 2. Clone this repository
 
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-python
+   $ cd become-lord
    ```
 
-4. Create a new virtual environment
+4. Create a new virtual environment (Note: this might be `python` rather than `python3` depending on your setup)
 
    ```bash
-   $ python -m venv venv
+   $ python3 -m venv venv
    $ . venv/bin/activate
    ```
 
-5. Install the requirements
+5. Install the requirements (Note: this might be `pip` rather than `pip3` depending on your setup)
 
    ```bash
-   $ pip install -r requirements.txt
+   $ pip3 install -r requirements.txt
    ```
 
 6. Make a copy of the example environment variables file
@@ -35,10 +39,17 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
 7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
-8. Run the app
+8. Run the app locally using Flask.
 
    ```bash
    $ flask run
    ```
+   
+You should now be able to access the app at [http://localhost:5000](http://localhost:5000)!
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+
+## Setup and run with Heroku
+
+1. Optionally, the project is configured to be able to run with Heroku locally using the Heroku CLI or deployed to a dyno.
+
+2. Setup following this guide [python-and-heroku](https://devcenter.heroku.com/articles/getting-started-with-python).
