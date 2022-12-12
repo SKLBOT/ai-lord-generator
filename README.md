@@ -6,6 +6,9 @@
 
 This is a medieval name generator app which uses the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework and is optionally set up to deploy to Heroku. Heroku worker configuration is set up in `Procfile`. Follow the instructions below to get set up.
 
+## Live Demo
+[Live Demo on Heroku](https://stormy-anchorage-84211.herokuapp.com/)
+
 ## Setup and run with flask
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/) or use `brew`.
