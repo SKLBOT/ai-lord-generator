@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+  <title>Medieval Name Generator</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100" height="100" xml:space="preserve"><path d="M66.667 43.334 50 16.667 33.333 43.334l-16.666-6.667 6.666 20v21.342c16.481 6.829 35.561 7.363 53.334 0V56.667l6.666-20-16.666 6.667zM70 73.393a62.393 62.393 0 0 1-19.971 3.274h-.003A62.696 62.696 0 0 1 30 73.393v-7.409a75.924 75.924 0 0 0 20.026 2.676c6.78 0 13.467-.898 19.974-2.676v7.409zm-1.26-14.034c-12.588 3.532-25.511 3.343-37.487-.017l-3.714-11.145 8.493 3.398L50 29.246l13.968 22.35 8.496-3.398-3.724 11.161z"/></svg>
+  <h3>Become a lord</h3>
+  <form action="/" method="post">
+    <input type="text" name="input" placeholder="Enter a name" required />
+    <input type="submit" value="Get it" />
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
