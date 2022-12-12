@@ -15,7 +15,7 @@ This is a medieval name generator app which uses the OpenAI API [quickstart tuto
 3. Navigate into the project directory
 
    ```bash
-   $ cd become-lord
+   $ cd ai-lord-generator
    ```
 
 4. Create a new virtual environment (Note: this might be `python` rather than `python3` depending on your setup)
