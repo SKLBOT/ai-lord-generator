@@ -10,6 +10,8 @@ This is a medieval name generator app which uses the OpenAI API [quickstart tuto
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/) or use `brew`.
 
+*Note: Make sure you're using version <= `python-3.10.8` because one of the requirements doesn't work with newer versions (I think it's pandas - don't qoute me on this though).*
+
 2. Clone this repository
 
 3. Navigate into the project directory
