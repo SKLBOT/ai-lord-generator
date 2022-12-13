@@ -15,7 +15,7 @@ def index():
         
         response = openai.Completion.create(
             model="text-davinci-002",
-            prompt=generate_teammate_prompt(input),
+            prompt=generate_prompt(input),
             temperature=0.4,
         )
         return redirect(url_for("index", result=response.choices[0].text))
@@ -24,7 +24,7 @@ def index():
     return render_template("index.html", result=result)
 
 
-def generate_teammate_prompt(person):
+def generate_prompt(person):
     return """Suggest a funny name for a person as if they were a noble person from the middle ages.
 person: Sean
 name: Sir Sean the Wanker
