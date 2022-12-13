@@ -1,5 +1,5 @@
 <p align="center">
-<img width="410" alt="the-small" src="https://user-images.githubusercontent.com/14722995/206960778-a66af496-bed0-440e-8d0e-8ada872d7236.png">
+<img width="416" alt="flaccid" src="https://user-images.githubusercontent.com/14722995/207203955-e647ade4-0bf2-46b5-8031-994c9597698e.png">
 </p>
 
 # Medieval Name Generator - Powered by OpenAI
