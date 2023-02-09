@@ -1,6 +1,7 @@
 <p align="center">
-<img width="416" alt="flaccid" src="https://user-images.githubusercontent.com/14722995/207203955-e647ade4-0bf2-46b5-8031-994c9597698e.png">
+<img width="393" alt="Screen Shot 2023-02-08 at 8 45 14 PM" src="https://user-images.githubusercontent.com/14722995/217695074-70ead798-d2ce-4efe-9f9e-ef56b07e39f7.png">
 </p>
+
 
 # Medieval Name Generator - Powered by OpenAI
 
